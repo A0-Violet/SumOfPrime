@@ -21,7 +21,7 @@ public class SumOfPrimeTest {
 	 */
 	@Test
 	public void testConsiderSpeedCase(){
-		Integer belowNum = 200000;
+		Integer belowNum = 20000000;
 		long startTime = System.currentTimeMillis();
 		Long primeSum = 0L;
 		boolean isPrime[] = new boolean[belowNum];
@@ -53,7 +53,7 @@ public class SumOfPrimeTest {
 	 */
 	@Test
 	public void testConsiderReduceLoopCount(){
-		Integer belowNum = 200000;
+		Integer belowNum = 20000000;
 		long startTime = System.currentTimeMillis();
 		Long primeSum = 0L;
 		int[] array = new int[belowNum/2];
